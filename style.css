@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+}
+.home{
+    background-color: bisque;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.home_top{
+    display: flex;
+    align-items: center;
+}
+.home_top > .left{
+    height: 80px;
+    width: 80px;
+   
+transform: rotate(180deg);
+    cursor: pointer;
+
+}
+.home_top > .right{
+    height: 80px;
+    width: 80px;
+    display: flex;
+
+    cursor: pointer;
+
+}
+.banner{
+    height: 250px;
+    width: 500px;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    transition: all 1s ease;
+}
+.slider > img{
+   
+    object-fit: cover;
+}
